@@ -494,7 +494,7 @@ export function HeroSection({ activeTheme, isDarkMode, toggleTheme }) {
  
             {/* GitHub */}
             <a
-              href="https://github.com/aogundare"
+              href={githubLink}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setIsOpen(false)}
