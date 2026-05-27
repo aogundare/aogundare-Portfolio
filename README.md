@@ -35,7 +35,7 @@ Every design and engineering decision made here reflects how I approach real-wor
 ![Projects Section](public/screenshots/project.png)
 
 ### Mobile
-![Mobile View](public/screenshots/mobile-hero.png)
+![Mobile View](public/screenshots/mobile-Hero.png)
 
 ## Features
 
