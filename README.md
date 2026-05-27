@@ -29,13 +29,13 @@ Every design and engineering decision made here reflects how I approach real-wor
 ---
 ## Preview 
     ### Desktop
-![Desktop Hero](public/screenshots/hero-desktop.png)
+![Desktop Hero](public/screenshots/hero.png)
 
 ### Projects
-![Projects Section](public/screenshots/projects.png)
+![Projects Section](public/screenshots/project.png)
 
 ### Mobile
-![Mobile View](public/screenshots/hero-mobile.png)
+![Mobile View](public/screenshots/mobile-hero.png)
 
 ## Features
 
