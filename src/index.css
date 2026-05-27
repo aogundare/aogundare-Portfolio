@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: transparent !important;
+}
+
+/* ─── Font smoothing ─────────────────────────────────────────────────────────
+   Makes text render crisper on Mac and Windows                             */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* ─── Smooth scroll ──────────────────────────────────────────────────────────
+   Anchor links scroll smoothly instead of jumping                          */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ─── Focus ring ─────────────────────────────────────────────────────────────
+   Global keyboard focus style — covers all buttons and links in one place
+   instead of repeating it per component                                    */
+:focus-visible {
+  outline: 2px solid #6366f1;
+  outline-offset: 2px;
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────────────────────
+   Matches your terracotta accent from tokens                               */
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 112, 96, 0.4);
+  border-radius: 999px;
+}
+
+/* ─── Button base ────────────────────────────────────────────────────────────
+   Ensures buttons inherit your font so they don't fall back to system font */
+button {
+  font-family: inherit;
+}
